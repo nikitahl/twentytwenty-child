@@ -1,0 +1,36 @@
+/*
+Theme Name:   Twenty Twenty Child
+Theme URI:    https://github.com/nikitahl/twentytwenty-child
+Description:  Twenty Twenty Child Theme
+Author:       Nikita Hlopov
+Author URI:   http://nikitahl.com
+Template:     twentytwenty
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  twentytwentychild
+*/
+
+.blog .post {
+    margin-bottom: 60px;
+}
+
+
+.post-meta .post-date .meta-icon svg {
+    width: 2.2rem;
+    height: 2.3rem;
+}
+
+.post-meta svg * {
+    fill: #484848;
+}
+
+@media (min-width: 700px) {
+    .singular .entry-header {
+        padding: 4rem 0;
+    }
+    .post-inner {
+        padding-top: 5rem;
+    }
+}
